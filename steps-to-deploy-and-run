@@ -1,0 +1,20 @@
+Microsoft Windows [Version 10.0.22621.4037]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\SaswatProject\saswat-portal>pip install -r requirements.txt
+
+D:\SaswatProject\saswat-portal>python manage.py makemigrations
+
+D:\SaswatProject\saswat-portal>python manage.py migrate
+
+D:\SaswatProject\saswat-portal>python manage.py migrate --database=sqlit
+
+D:\SaswatProject\saswat-portal>python manage.py migrate --database=default
+
+D:\SaswatProject\saswat-portal>python manage.py createsuperuser
+
+D:\SaswatProject\saswat-portal>http://127.0.0.1:8000/
+
+now open in browser
+
+http://127.0.0.1:8000/admin/
